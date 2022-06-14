@@ -1,4 +1,4 @@
-package org.lorenzo.playground.domain.services
+package org.lorenzo.playground.springcontext
 
 interface ISpringPlaygroundService {
 

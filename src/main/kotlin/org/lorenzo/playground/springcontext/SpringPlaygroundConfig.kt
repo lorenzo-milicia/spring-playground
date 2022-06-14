@@ -1,11 +1,11 @@
-package org.lorenzo.playground.config
+package org.lorenzo.playground.springcontext
 
-import org.lorenzo.playground.domain.services.ISpringPlaygroundService
-import org.lorenzo.playground.domain.services.PointlessService
 import org.springframework.context.annotation.Bean
+import org.springframework.context.annotation.ComponentScan
 import org.springframework.context.annotation.Configuration
 
 @Configuration
+@ComponentScan
 open class SpringPlaygroundConfig {
 
 	@Bean
